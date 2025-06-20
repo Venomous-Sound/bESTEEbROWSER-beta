@@ -19,7 +19,7 @@ As a beta tester, you'll:
 ## 📥 Download Beta Releases
 
 ### Latest Beta Release
-Check the [Releases](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/releases) page for the latest beta version.
+Check the [Releases](https://github.com/Venomous-Sound/bESTEEbROWSER-beta/releases) page for the latest beta version.
 
 **System Requirements:**
 - macOS 10.15 or later (Apple Silicon optimized)
@@ -30,8 +30,8 @@ Check the [Releases](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/release
 
 Found a bug or have a suggestion? We'd love to hear from you!
 
-1. Check [existing issues](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/issues) to avoid duplicates
-2. [Create a new issue](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/issues/new/choose) using our templates
+1. Check [existing issues](https://github.com/Venomous-Sound/bESTEEbROWSER-beta/issues) to avoid duplicates
+2. [Create a new issue](https://github.com/Venomous-Sound/bESTEEbROWSER-beta/issues/new/choose) using our templates
 3. Provide as much detail as possible
 
 ## 📋 Beta Testing Guidelines
@@ -51,8 +51,8 @@ Please review our [Beta Testing Guide](docs/BETA_TESTING_GUIDE.md) for:
 ## 💬 Community
 
 Join our beta testing community:
-- [Discord Server](YOUR_DISCORD_LINK) - Real-time chat with developers and testers
-- [Discussions](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/discussions) - Share ideas and feedback
+- [Discord Server](https://discord.gg/DdQAkUbdm8) - Real-time chat with developers and testers
+- [Discussions](https://github.com/Venomous-Sound/bESTEEbROWSER-beta/discussions) - Share ideas and feedback
 
 ## 📚 Documentation
 

@@ -31,7 +31,7 @@ git commit -m "Initial commit: Beta testing program setup"
 ## Step 3: Push Beta Repository
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta.git
+git remote add origin https://github.com/Venomous-Sound/bESTEEbROWSER-beta.git
 git branch -M main
 git push -u origin main
 ```
@@ -99,7 +99,7 @@ gh release create v1.0.0-beta.2 \
 ## Step 7: Update Placeholder Links
 
 Edit these files to add your actual links:
-- `README.md` - Replace YOUR_USERNAME and YOUR_DISCORD_LINK
+- `README.md` - Replace Venomous-Sound and https://discord.gg/DdQAkUbdm8
 - `.github/ISSUE_TEMPLATE/config.yml` - Add your links
 
 ## Step 8: Announce Beta Program
@@ -111,7 +111,7 @@ Edit these files to add your actual links:
 
 I'm excited to announce the beta testing program for BesteeBrowser - a creative digital workspace that brings together browsing, chat, music visualization, and more in one beautiful interface.
 
-🔗 Join the beta: https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta
+🔗 Join the beta: https://github.com/Venomous-Sound/bESTEEbROWSER-beta
 
 As a beta tester, you'll:
 - Get early access to new features

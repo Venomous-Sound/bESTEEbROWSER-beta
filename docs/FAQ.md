@@ -125,7 +125,7 @@ Echo ID allows you to link different chat platform identities, enabling cross-pl
 
 ## Still Have Questions?
 
-- Check our [GitHub Discussions](https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/discussions)
+- Check our [GitHub Discussions](https://github.com/Venomous-Sound/bESTEEbROWSER-beta/discussions)
 - Join our Discord community
 - Create an issue if you've found a bug
 - Email support (if available)
