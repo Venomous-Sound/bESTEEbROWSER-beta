@@ -1,0 +1,50 @@
+name: Create Beta Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 1.0.0-beta.2)'
+        required: true
+        type: string
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: v${{ github.event.inputs.version }}
+        name: BesteeBrowser v${{ github.event.inputs.version }}
+        body: |
+          ## 🚀 BesteeBrowser Beta Release v${{ github.event.inputs.version }}
+          
+          ### 📥 Download
+          Please download the appropriate version for your system:
+          - **macOS (Apple Silicon M1/M2/M3)**: `BesteeBrowser-${{ github.event.inputs.version }}-arm64.dmg`
+          - **macOS (Intel)**: `BesteeBrowser-${{ github.event.inputs.version }}-x64.dmg`
+          - **Windows**: `BesteeBrowser-Setup-${{ github.event.inputs.version }}.exe`
+          
+          ### 📋 What's New
+          - [List major changes here]
+          - [Add more changes]
+          
+          ### 🐛 Known Issues
+          - [List any known issues]
+          
+          ### 📚 Documentation
+          - [User Guide](https://github.com/${{ github.repository_owner }}/bESTEEbROWSER-beta/blob/main/docs/USER_GUIDE.md)
+          - [Beta Testing Guide](https://github.com/${{ github.repository_owner }}/bESTEEbROWSER-beta/blob/main/docs/BETA_TESTING_GUIDE.md)
+          - [FAQ](https://github.com/${{ github.repository_owner }}/bESTEEbROWSER-beta/blob/main/docs/FAQ.md)
+          
+          ### 💬 Feedback
+          Please report issues using our [issue templates](https://github.com/${{ github.repository_owner }}/bESTEEbROWSER-beta/issues/new/choose) or join our [Discord](https://discord.gg/DdQAkUbdm8)!
+        draft: true
+        prerelease: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
