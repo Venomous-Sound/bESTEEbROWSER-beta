@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Discussions
+    url: https://github.com/YOUR_USERNAME/bESTEEbROWSER-beta/discussions
+    about: Please ask questions and discuss ideas here
+  - name: Discord Community
+    url: YOUR_DISCORD_LINK
+    about: Join our Discord for real-time chat and support
